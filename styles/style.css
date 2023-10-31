@@ -52,3 +52,8 @@ section{
         color: var(--cor-secundaria);
     }
 }
+@media(max-width: 768px){
+    .link-home{
+        display: none;
+    }
+}
