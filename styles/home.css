@@ -54,7 +54,19 @@
     }
     .conteudo-container{
         flex-direction: column-reverse;
+        justify-content: ;
     }
+    .conteudo-container div{
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .conteudo-container .texto{
+        justify-content: center;
+        height: 300px;
+
+    }
+
     .destaque-container{
     display: none;
     }
