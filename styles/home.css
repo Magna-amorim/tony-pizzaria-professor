@@ -54,7 +54,7 @@
     }
     .conteudo-container{
         flex-direction: column-reverse;
-        justify-content: ;
+        justify-content: center;
     }
     .conteudo-container div{
         justify-content: flex-end;
@@ -64,7 +64,6 @@
     .conteudo-container .texto{
         justify-content: center;
         height: 300px;
-
     }
 
     .destaque-container{
