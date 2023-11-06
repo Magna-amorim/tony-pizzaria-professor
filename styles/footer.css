@@ -116,3 +116,32 @@ footer{
     font-weight: 200;
     border-top: 1px solid #fff8;
 }
+/* TABLET */
+@media (max-width: 768px){
+    footer{
+        padding-bottom: 60px;
+    }
+    .contato-links{
+        display: none;
+    }
+    .contatos-container{
+        display: grid;
+        grid-template-areas: 
+        "logo sociais"
+        "contatos sociais";
+
+        place-items: start;
+        gap: 28px;
+        padding-inline: 132px;
+    }
+    .contato-logo{
+        grid-area: logo;
+    }
+    .contato{
+        grid-area: contatos;
+    }
+    .contato-sociais{
+        grid-area: sociais;
+        place-self: end;
+    }
+}
